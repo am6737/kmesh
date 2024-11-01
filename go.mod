@@ -28,11 +28,15 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gotest.tools v2.2.0+incompatible
 	istio.io/api v1.23.0-alpha.0.0.20241007133624-bfb6855a7760
+	istio.io/client-go v1.23.0-alpha.0.0.20241007133923-6216dcee5376
 	istio.io/istio v0.0.0-20241013024925-e3b7c36c24a0
 	istio.io/pkg v0.0.0-20231221211216-7635388a563e
 	k8s.io/api v0.31.2
+	k8s.io/apiextensions-apiserver v0.31.1
 	k8s.io/apimachinery v0.31.2
+	k8s.io/cli-runtime v0.31.1
 	k8s.io/client-go v0.31.2
+	k8s.io/kubectl v0.31.1
 	sigs.k8s.io/gateway-api v1.2.0
 	sigs.k8s.io/yaml v1.4.0
 )
@@ -221,14 +225,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	helm.sh/helm/v3 v3.16.1 // indirect
-	istio.io/client-go v1.23.0-alpha.0.0.20241007133923-6216dcee5376 // indirect
-	k8s.io/apiextensions-apiserver v0.31.1 // indirect
 	k8s.io/apiserver v0.31.1 // indirect
-	k8s.io/cli-runtime v0.31.1 // indirect
 	k8s.io/component-base v0.31.1 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240423202451-8948a665c108 // indirect
-	k8s.io/kubectl v0.31.1 // indirect
 	k8s.io/utils v0.0.0-20240921022957-49e7df575cb6 // indirect
 	sigs.k8s.io/controller-runtime v0.19.0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect

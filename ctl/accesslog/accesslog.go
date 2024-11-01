@@ -23,7 +23,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"istio.io/istio/pkg/kube"
+	"kmesh.net/kmesh/pkg/kube"
 
 	"kmesh.net/kmesh/ctl/utils"
 	"kmesh.net/kmesh/pkg/logger"
